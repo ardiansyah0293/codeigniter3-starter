@@ -28,8 +28,7 @@ Changelog and New Features
 
 - Remove index.php ( add .htaccess and setting to autoload.php & config.php)
 - Add template libraries
-- Add template with bootstrap 4.6
-See pages <https://getbootstrap.com/docs/4.6/getting-started/introduction/>`.
+- Add template with bootstrap 4.6 See pages <https://getbootstrap.com/docs/4.6/getting-started/introduction/>`
 - Add user Login system
 - Add csrf protection
 
