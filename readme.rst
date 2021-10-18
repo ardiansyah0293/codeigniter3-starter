@@ -2,8 +2,17 @@
 What is CodeIgniter 3 Starter
 ##############################
 
-CodeIgniter 3 starter is an Modification of Application Development Framework from Codeigniter
-Modification include : remove index.php, add bootstrap 4.6 css-framework, add user login
+| CodeIgniter 3 starter is an Modification of Application Development Framework from Codeigniter.
+| Some libraries added, ex: template (use Bootstrap 4.6 starter template)  
+| autoload :database,session
+| change : index.php
+| add : .htaccess
+
+| RewriteEngine On\
+| RewriteCond %{REQUEST_FILENAME} !-f
+| RewriteCond %{REQUEST_FILENAME} !-d
+| RewriteRule ^(.*)$ index.php/$1 [L]
+
 
 *******************
 Release Information
@@ -22,6 +31,7 @@ Changelog and New Features
 - Add template with bootstrap 4.6
 See pages <https://getbootstrap.com/docs/4.6/getting-started/introduction/>`.
 - Add user Login system
+- Add csrf protection
 
 
 *******************
